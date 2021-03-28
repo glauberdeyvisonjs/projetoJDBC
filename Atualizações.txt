@@ -1,1 +1,2 @@
 Bloco de atualizações do projeto.
+Conta 6 criada com sucesso através do ContaDAOimpl.
