@@ -29,4 +29,10 @@ public class Conta {
 		this.limite = limite;
 	}
 
+	@Override
+	public String toString() {
+		return "Conta [" + (numero != null ? "numero=" + numero + ", " : "")
+				+ (saldo != null ? "saldo=" + saldo + ", " : "") + (limite != null ? "limite=" + limite : "") + "]";
+	}
+	
 }

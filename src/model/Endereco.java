@@ -38,4 +38,11 @@ public class Endereco {
 		this.complemento = complemento;
 	}
 
+	@Override
+	public String toString() {
+		return "Endereco [" + (id != null ? "id=" + id + ", " : "") + (rua != null ? "rua=" + rua + ", " : "")
+				+ (numero != null ? "numero=" + numero + ", " : "")
+				+ (complemento != null ? "complemento=" + complemento : "") + "]";
+	}
+
 }
