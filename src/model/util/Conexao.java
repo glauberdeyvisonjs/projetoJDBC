@@ -9,11 +9,6 @@ public class Conexao {
 	private String user = "BARBA";
 	private String password = "1605";
 	
-	/**
-	 * iniciar conexão
-	 * @return
-	 */
-	
 	public Connection getConnection() {
 		Connection conn = null;
 		try {
